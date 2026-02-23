@@ -33,7 +33,7 @@ The vision pipeline was validated through a user study. The results demonstrate 
 The dataset used to train and validate the segmentation and tool-tip localization models is publicly available.
 
 **Dataset Link:**  
-[Insert Google Drive Link Here]
+https://drive.google.com/drive/folders/1rEn-xTIVC5EdAB_dkzeK7pBPva5ACMsj?usp=sharing
 
 The dataset includes annotated frames for:
 - Surgical instrument segmentation  
