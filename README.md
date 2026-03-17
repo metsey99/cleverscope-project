@@ -37,7 +37,25 @@ https://drive.google.com/drive/folders/1rEn-xTIVC5EdAB_dkzeK7pBPva5ACMsj?usp=sha
 
 The dataset includes annotated frames for:
 - Surgical instrument segmentation  
-- Tool-tip localization  
+- Tool-tip localization
+
+The dataset file structure is organized as follows;
+```bash
+├── Hacettepe Surgical Dataset
+│   ├── imgs
+│   │   ├── *.png
+│   ├── masks
+│   │   ├── *.png
+│   ├── point_coordinates.json
+├── Handcrafted Endoscope Dataset
+│   ├── bell_pepper_imgs
+│   │   ├── *.png
+│   ├── bell_pepper_masks
+│   │   ├── *.png
+│   ├── point_coordinates.json
+```
+
+![Samples from Dataset(Top row for Hacettepe Surgical Dataset, bottom row for Handcrafter Endoscope Dataset)](imgs/sample_imgs.png)
 
 If you use this dataset in your research, please cite the associated paper. Citation details will be added upon publication.
 
@@ -56,13 +74,6 @@ is currently being prepared for public release.
 The cleaned and documented codebase will be added to this repository soon.
 
 ---
-
-## Planned Repository Structure
-
-├── data/              # Dataset (external link provided above) <br>
-├── src/               # Source code (coming soon) <br>
-├── experiments/       # Experiment scripts (coming soon) <br>
-├── README.md
 
 ## Contact
 
